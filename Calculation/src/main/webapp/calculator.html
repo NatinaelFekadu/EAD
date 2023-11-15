@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Select Operation</h2>
+    <form action="OperationServlet" method="post">
+        <label for="num1">Enter Num1:</label>
+        <input type="text" name="num1" id="num1" required>
+        <br><br>
+        <label for="num2">Enter Num2:</label>
+        <input type="text" name="num2" id="num2" required>
+        <br><br>
+        <label for="operation">Choose an operation:</label>
+        <select name="operation" id="operation">
+            <option value="add">Add</option>
+            <option value="multiply">Multiply</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
